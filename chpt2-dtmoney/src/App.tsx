@@ -1,6 +1,6 @@
 export function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Salve Mundo!</h1>
     </div>
   );
