@@ -3,7 +3,7 @@ import { api } from '../../services/api';
 
 import * as S from './styles';
 
-function TransactionsTable() {
+export function TransactionsTable() {
   useEffect(() => {
     api.get('transactions')
       .then(response => console.log(response.data))
@@ -39,5 +39,3 @@ function TransactionsTable() {
     </S.Container>
   );
 };
-
-export default TransactionsTable;
